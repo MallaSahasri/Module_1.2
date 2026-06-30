@@ -9,6 +9,7 @@ class Product {
         this.quantity = qty;
         this.price = price;
     }
+    
     public String toString() {
         return productId + " " + productName + " Qty:" + quantity + " Price:" + price;
     }
